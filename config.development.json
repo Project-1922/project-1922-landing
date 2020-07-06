@@ -1,3 +1,16 @@
 {
-    "enableDeveloperExperiments": true
+  "storage": {
+    "active": "ghost-storage-cloudinary",
+    "ghost-storage-cloudinary": {
+      "upload": {
+        "use_filename": "false",
+        "unique_filename": "true",
+        "overwrite": "false"
+      },
+      "fetch": {
+        "quality": "auto",
+        "secure": "true"
+      }
+    }
+  }
 }

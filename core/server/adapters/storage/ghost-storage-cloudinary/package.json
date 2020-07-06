@@ -1,0 +1,60 @@
+{
+  "name": "ghost-storage-cloudinary",
+  "version": "2.1.2",
+  "description": "Cloudinary storage adapter for Ghost",
+  "main": "index.js",
+  "keywords": [
+    "cloudinary",
+    "ghost",
+    "blog",
+    "image",
+    "storage",
+    "module"
+  ],
+  "repository": "https://github.com/eexit/ghost-storage-cloudinary",
+  "bugs": {
+    "url": "https://github.com/eexit/ghost-storage-cloudinary/issues"
+  },
+  "author": "Joris Berthelot <admin@eexit.net>",
+  "contributors": [
+    {
+      "name": "Seth Brasile",
+      "email": "seth.brasile@gmail.com"
+    },
+    {
+      "name": "Marco Mornati",
+      "email": "marco@mornati.net"
+    },
+    {
+      "name": "aphe",
+      "email": "afriyandi@cizzu.com"
+    }
+  ],
+  "license": "ISC",
+  "scripts": {
+    "test": "nyc --reporter=lcov mocha tests/index",
+    "eslint": "$(npm bin)/eslint ."
+  },
+  "engines": {
+    "node": "^10.0.0 || ^12.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.0",
+    "cloudinary": "~1.21.0",
+    "ghost-ignition": "^4.0.0",
+    "ghost-storage-base": "0.0.4",
+    "image-size": "^0.8.2",
+    "lodash": "^4.17.15",
+    "npm": "^6.13.6",
+    "os-locale": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-mocha": "6.3.0",
+    "moment": "^2.24.0",
+    "nock": "^12.0.3",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.1"
+  }
+}

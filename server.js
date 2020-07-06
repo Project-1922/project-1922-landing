@@ -1,6 +1,8 @@
 // # Ghost Startup
 // Orchestrates the startup of Ghost when run from command line.
 
+
+process.env.server__port = process.env.sever__port || process.env.PORT ;; //Required for GA
 const startTime = Date.now();
 const debug = require('ghost-ignition').debug('boot:index');
 // Sentry must be initialised early on
