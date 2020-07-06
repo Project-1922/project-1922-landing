@@ -21,7 +21,7 @@
   "license": "MIT",
   "main": "./core/index",
   "scripts": {
-    "start": "node index",
+    "start": "node server",
     "dev": "DEBUG=ghost:* grunt dev",
     "test": "grunt validate",
     "ci": "grunt validate --verbose",
@@ -36,7 +36,7 @@
     "fixmodulenotdefined": "yarn cache clean && cd core/client && rm -rf node_modules tmp dist && yarn && cd ../../"
   },
   "engines": {
-    "node": "^10.13.0 || ^12.10.0",
+    "node": "12.X.X",
     "cli": "^1.12.0"
   },
   "dependencies": {
