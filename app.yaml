@@ -1,0 +1,11 @@
+runtime: nodejs12
+env_variables:
+  database__client: mysql
+  url: "https://www.project1922.com"
+  database__connection__database: ghost
+  database__connection__socketPath: "/cloudsql/project1922-ghost-blog:us-central1:project-1922-ghost-db"
+  mail__transport: "SMTP"
+  mail__options__service: "Maligun"
+  mail__options__port: 465
+  mail__options__host: smtp.mailgun.org
+  mail__options__secureConnection: true

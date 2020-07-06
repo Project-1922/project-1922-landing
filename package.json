@@ -40,6 +40,7 @@
     "cli": "^1.12.0"
   },
   "dependencies": {
+    "@google-cloud/secret-manager": "^3.1.0",
     "@nexes/nql": "0.4.0",
     "@sentry/node": "5.18.1",
     "@tryghost/adapter-manager": "0.1.7",
@@ -134,7 +135,7 @@
   },
   "optionalDependencies": {
     "@tryghost/html-to-mobiledoc": "0.7.0",
-    "sqlite3": "4.2.0"
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "@lodder/grunt-postcss": "2.0.4",

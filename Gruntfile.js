@@ -89,7 +89,7 @@ const configureGrunt = function (grunt) {
                     'core/shared/**/*.js',
                     'core/frontend/**/*.js',
                     'core/index.js',
-                    'index.js',
+                    'server.js',
                     'config.*.json',
                     '!config.testing.json'
                 ],
@@ -106,7 +106,7 @@ const configureGrunt = function (grunt) {
         // Start a Ghost express server for use in development and testing
         express: {
             options: {
-                script: 'index.js',
+                script: 'server.js',
                 output: 'Ghost is running'
             },
 
